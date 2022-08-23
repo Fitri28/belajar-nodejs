@@ -1,0 +1,24 @@
+var gaji = 4500000;
+var transport = 10000*24;
+var infak = 50000;
+var bpjs = 250000;;
+var potongan = gaji*2.5/100;
+var totalpotongan = bpjs+infak+potongan;
+var hasil = gaji-totalpotongan+transport;
+
+console.log("Gaji Kotor : Rp." + gaji);
+console.log("=========================");
+console.log("Potongan Pajak 2,5% : Rp." + potongan);
+console.log("Potongan Bpjs : Rp." + bpjs);
+console.log("Potongan Infak : Rp." + infak);
+console.log("=========================");
+console.log("Total Potongan : Rp." + totalpotongan);
+console.log("=========================");
+console.log("Tunjangan Transport : Rp. 10000" );
+console.log("Total Hari Kerja : 24 hari ");
+console.log("=========================");
+console.log("Total Tunjangan : Rp." + transport);
+console.log("Perhitungan Gaji :");
+console.log("(gaji + potongan) + Tunjangan(4500000 - 412500) + 240000");
+console.log("=========================");
+console.log("Gaji Bersih : Rp." + hasil);
